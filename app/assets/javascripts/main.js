@@ -1,3 +1,3 @@
 $(document).ready(function () {
-  $('body').delay(500).fadeIn(3000);
+  $('#main').delay(500).fadeIn(3000);
 });

@@ -1,7 +1,6 @@
 @import "compass";
 
 body {
-  display: none;
   line-height: 30px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -12,6 +11,7 @@ a {
 }
 
 #main {
+  display: none;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
