@@ -1,0 +1,77 @@
+@import "compass";
+
+body {
+  display: none;
+  line-height: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #ED4E4E;
+  text-decoration: none;
+}
+
+#main {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#main-inner {
+  margin: 40px 10px 10px;
+}
+
+header {
+  text-align: center;
+}
+
+#me {
+  width: 165px;
+  height: 165px;
+  margin: 0 auto 20px auto;
+  background: url(/assets/me.png);
+  @include border-radius(165px);
+}
+
+#name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#what-i-am {
+  font-size: 16px;
+}
+
+#about, #something-i-made {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#find-me {
+  text-align: center;
+
+  button {
+    margin: 10px;
+    padding: 14px 25px;
+    border: none;
+    font-size: 22px;
+    font-weight: normal;
+    color: #fff;
+    @include border-radius(5px);
+    cursor: pointer;
+
+    &#work-with-me {
+      background: #ED4E4E;
+    }
+
+    &#github {
+      background: #000;
+    }
+
+    &#twitter {
+      background: #4099FF;
+    }
+  }
+}
